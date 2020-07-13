@@ -1,5 +1,5 @@
 # TensorFlow Specialization
-**TensorFlow in Practice Specialisation - Laurence Moroney**
+> TensorFlow in Practice Specialisation - Laurence Moroney**
 
 ![TensorFlow](https://user-images.githubusercontent.com/66634743/87324431-1f7c3000-c541-11ea-9c87-4dc67dc84831.png)
 
