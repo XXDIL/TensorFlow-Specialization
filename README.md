@@ -15,6 +15,7 @@ Discover the tools software developers use to build scalable **AI-powered** algo
 ### The Four Courses Contain:
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
   * [Codes](https://github.com/XXDIL/TensorFlow-Specialization/tree/master/Intro%20to%20TensorFlow%20(AI%2C%20ML%20and%20DL))
+  * [Certificate](https://www.coursera.org/account/accomplishments/records/K6ERCBW9YFX4)
 2. Convolutional Neural Network in Tensorflow
   * [Codes]
 3. Natural Language Processing in TensorFlow
