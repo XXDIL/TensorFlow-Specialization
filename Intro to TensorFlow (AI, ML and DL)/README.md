@@ -55,6 +55,20 @@ model = tf.keras.models.Sequential([
 ```
 
 #### Week4: Convolutions on complex images.
-> 
+> ImageDataGenerator is a really handy tool.
 ```python3
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+train_datagen = ImageDataGenerator(rescale=1/255)
+```
+> flow_from_directory() returns (x=\[batch of images with shape (batch_size, *target_size, channels)\], y=\[corresponding labels\])
+```python3
+train_generator = train_datagen.flow_from_directory(
+                "/tmp/h-or-s",
+                target_size=(150, 150),
+                class_mode='binary')
+
+history = model.fit_generator(
+                train_generator,
+                epochs=30,
+                callbacks=[callbacks])
 ```
